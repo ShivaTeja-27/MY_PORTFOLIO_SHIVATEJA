@@ -399,9 +399,19 @@ section .button button:hover {
   animation: css 3s;
 }
 
+.Bootstrap {
+  width: 90%;
+  animation: Bootstrap 3s;
+}
+
 .JavaScript {
   width: 90%;
   animation: JavaScript 3s;
+}
+
+.React {
+  width: 30%;
+  animation: React 3s;
 }
 
 .python {
@@ -436,6 +446,16 @@ section .button button:hover {
   }
 }
 
+@keyframes Bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
 @keyframes JavaScript {
   0% {
     width: 0%;
@@ -443,6 +463,16 @@ section .button button:hover {
 
   100% {
     width: 90%;
+  }
+}
+
+@keyframes React {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 30%;
   }
 }
 
